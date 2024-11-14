@@ -46,7 +46,7 @@ func swap(x, y string) (string, string) {
 var c, python string
 var java bool
 var ram, lakshman = "ram", "lakshman" //type can be omitted when it has the initializers
-
+const pi = 3.14                       // we can't chage the value of the const like var
 // main function called automatically in a go file all other functions should be called
 func main() {
 	var i, j int                    // variables inside the function is known as short variables
